@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_backspace"
+        android:checkable="false"
+        android:enabled="true"
+        android:icon="@drawable/ic_backspace"
+        android:title="Backspace"
+        android:visible="true"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/menu_copy"
+        android:checkable="false"
+        android:enabled="true"
+        android:icon="@drawable/ic_copy"
+        android:title="Copy"
+        android:visible="true"
+        app:showAsAction="always" />
+    <!--TODO: in the future, try to make copt showAsAsAction=ifRoom, but so that paste will appear if and only if copy ends up being displayed-->
+    <item
+        android:id="@+id/menu_paste"
+        android:checkable="false"
+        android:enabled="true"
+        android:icon="@drawable/ic_paste"
+        android:title="Paste"
+        android:visible="true"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/menu_easter_egg"
+        android:checkable="false"
+        android:enabled="true"
+        android:icon="@drawable/ic_easter_egg"
+        android:title="Easter Egg"
+        android:visible="true"
+        app:showAsAction="never" />
+
+</menu>
